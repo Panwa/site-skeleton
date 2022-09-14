@@ -1,0 +1,10 @@
+{
+    "name": "panwa/site-skeleton",
+    "description": "Skeleton",
+    "autoload": {
+        "psr-4": {
+            "Panwa\\SiteSkeleton\\": "src/"
+        }
+    },
+    "require": {}
+}
