@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d246b0a04e48a3aa382095c2e5722c5f",
+    "content-hash": "74b01e95b6e66cef2bafb06aa434a904",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1698,13 +1698,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Panwa/site-core-bundle.git",
-                "reference": "a7287e032e1553a30b55cd386bf097fb221ab478"
+                "reference": "1e55b01b65566b86bda9c30b6c639591f61129a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Panwa/site-core-bundle/zipball/a7287e032e1553a30b55cd386bf097fb221ab478",
-                "reference": "a7287e032e1553a30b55cd386bf097fb221ab478",
+                "url": "https://api.github.com/repos/Panwa/site-core-bundle/zipball/1e55b01b65566b86bda9c30b6c639591f61129a0",
+                "reference": "1e55b01b65566b86bda9c30b6c639591f61129a0",
                 "shasum": ""
+            },
+            "require": {
+                "symfony/http-foundation": "^6.1"
             },
             "default-branch": true,
             "type": "library",
@@ -1725,7 +1728,7 @@
                 "source": "https://github.com/Panwa/site-core-bundle/tree/main",
                 "issues": "https://github.com/Panwa/site-core-bundle/issues"
             },
-            "time": "2022-09-15T04:56:11+00:00"
+            "time": "2022-09-15T06:11:14+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
