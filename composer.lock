@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24cc3462913f16b4eac7de32b75fc11c",
+    "content-hash": "4518293ad0b8e244bbd2d38210803e21",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1691,6 +1691,31 @@
                 }
             ],
             "time": "2022-07-24T12:00:55+00:00"
+        },
+        {
+            "name": "panwa/site-core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Panwa/site-core.git",
+                "reference": "d3eba04e2a61e09993ac51cdfe36390244c7bc15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Panwa/site-core/zipball/d3eba04e2a61e09993ac51cdfe36390244c7bc15",
+                "reference": "d3eba04e2a61e09993ac51cdfe36390244c7bc15",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "license": [
+                "proprietary"
+            ],
+            "support": {
+                "source": "https://github.com/Panwa/site-core/tree/1.0.0.2",
+                "issues": "https://github.com/Panwa/site-core/issues"
+            },
+            "time": "2022-09-15T01:01:59+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -9736,8 +9761,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "panwa/site-core": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
