@@ -2,6 +2,6 @@ controllers:
     resource: ../src/Controller/
     type: attribute
 
-panwa-site-core-index:
-    path: /
-    controller: Panwa\SiteCoreBundle\Controller\DefaultController::index
+app_extra:
+    resource: .
+    type: extra
