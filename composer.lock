@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4518293ad0b8e244bbd2d38210803e21",
+    "content-hash": "d246b0a04e48a3aa382095c2e5722c5f",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1693,29 +1693,39 @@
             "time": "2022-07-24T12:00:55+00:00"
         },
         {
-            "name": "panwa/site-core",
+            "name": "panwa/site-core-bundle",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Panwa/site-core.git",
-                "reference": "94b8c748278b075e5dc55295234ee7bcde495b9b"
+                "url": "https://github.com/Panwa/site-core-bundle.git",
+                "reference": "a7287e032e1553a30b55cd386bf097fb221ab478"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Panwa/site-core/zipball/94b8c748278b075e5dc55295234ee7bcde495b9b",
-                "reference": "94b8c748278b075e5dc55295234ee7bcde495b9b",
+                "url": "https://api.github.com/repos/Panwa/site-core-bundle/zipball/a7287e032e1553a30b55cd386bf097fb221ab478",
+                "reference": "a7287e032e1553a30b55cd386bf097fb221ab478",
                 "shasum": ""
             },
             "default-branch": true,
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Panwa\\SiteCoreBundle\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Panwa\\SiteCoreBundle\\Tests\\": "tests/"
+                }
+            },
             "license": [
                 "proprietary"
             ],
             "support": {
-                "source": "https://github.com/Panwa/site-core/tree/main",
-                "issues": "https://github.com/Panwa/site-core/issues"
+                "source": "https://github.com/Panwa/site-core-bundle/tree/main",
+                "issues": "https://github.com/Panwa/site-core-bundle/issues"
             },
-            "time": "2022-09-15T01:07:51+00:00"
+            "time": "2022-09-15T04:56:11+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -9763,7 +9773,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "panwa/site-core": 20
+        "panwa/site-core-bundle": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
