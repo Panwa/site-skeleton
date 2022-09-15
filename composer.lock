@@ -1698,12 +1698,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Panwa/site-core.git",
-                "reference": "d3eba04e2a61e09993ac51cdfe36390244c7bc15"
+                "reference": "94b8c748278b075e5dc55295234ee7bcde495b9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Panwa/site-core/zipball/d3eba04e2a61e09993ac51cdfe36390244c7bc15",
-                "reference": "d3eba04e2a61e09993ac51cdfe36390244c7bc15",
+                "url": "https://api.github.com/repos/Panwa/site-core/zipball/94b8c748278b075e5dc55295234ee7bcde495b9b",
+                "reference": "94b8c748278b075e5dc55295234ee7bcde495b9b",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1712,10 +1712,10 @@
                 "proprietary"
             ],
             "support": {
-                "source": "https://github.com/Panwa/site-core/tree/1.0.0.2",
+                "source": "https://github.com/Panwa/site-core/tree/main",
                 "issues": "https://github.com/Panwa/site-core/issues"
             },
-            "time": "2022-09-15T01:01:59+00:00"
+            "time": "2022-09-15T01:07:51+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
